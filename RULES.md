@@ -17,4 +17,11 @@ This sandbox is practice only. It is not assessed, so mistakes here cost nothing
 
 ## Session 1
 
-<!-- Reserved: the Session 1 practice rules are added here by a later change. -->
+1. **Work in the [practice folder](practice/README.md).** Do not edit other files unless the instructor says so.
+2. **Name your branch `group-N/short-topic`**, where `N` is your group number, for example `group-3/add-notes`.
+3. **You cannot push to `main`.** Open a pull request and have a teammate review it before merging.
+4. **A review needs a specific comment** about behaviour or clarity. "Looks good" alone is not a review.
+5. **Merge conflicts are expected.** The line under "Favourite tool this week" in `shared-notes.md` is shared on purpose.
+6. **Nothing here counts as final-project evidence.** Your group's own repository, created in Session 2, is where authored pull requests and reviews are counted.
+7. **Never commit secrets, real data or personal information.** Everything here is public.
+8. **Delete your branch after merging.**
