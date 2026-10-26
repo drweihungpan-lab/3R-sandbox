@@ -29,7 +29,7 @@ FAILED tests/test_model.py::test_limit_dates_are_pinned_for_the_fixed_synthetic_
 3 failed, 3 passed
 ```
 
-Locally, `git apply stage-5-tests-ci/cleanup-drop-zero-days.patch` from the repository root produces the same failures. Undo with `git checkout stage-5-tests-ci/backend/device_limit/data.py`.
+Locally, `git apply device-example/stage-5-tests-ci/cleanup-drop-zero-days.patch` from the repository root produces the same failures. Undo with `git checkout device-example/stage-5-tests-ci/backend/device_limit/data.py`.
 
 **The pain:** the checks protect `main`, but only a programmer can get a prediction.
 

@@ -1,7 +1,7 @@
-diff --git a/stage-4-package/device_limit/data.py b/stage-4-package/device_limit/data.py
+diff --git a/device-example/stage-4-package/device_limit/data.py b/device-example/stage-4-package/device_limit/data.py
 index 7fa9d86..c0e0202 100644
---- a/stage-4-package/device_limit/data.py
-+++ b/stage-4-package/device_limit/data.py
+--- a/device-example/stage-4-package/device_limit/data.py
++++ b/device-example/stage-4-package/device_limit/data.py
 @@ -4,4 +4,6 @@ import pandas as pd
  
  
