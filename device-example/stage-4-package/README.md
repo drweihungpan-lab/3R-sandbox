@@ -37,8 +37,8 @@ FileNotFoundError: [Errno 2] No such file or directory: 'data/device_counts.csv'
 **Symptom 2, a "cleanup" that quietly moves the date.** [`cleanup-drop-zero-days.patch`](cleanup-drop-zero-days.patch) drops days with zero measurements, which looks harmless. From the repository root:
 
 ```bash
-git apply stage-4-package/cleanup-drop-zero-days.patch
-cd stage-4-package && .venv/bin/python -m device_limit
+git apply device-example/stage-4-package/cleanup-drop-zero-days.patch
+cd device-example/stage-4-package && .venv/bin/python -m device_limit
 ```
 
 ```text

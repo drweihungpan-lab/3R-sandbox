@@ -1,7 +1,7 @@
-diff --git a/stage-5-tests-ci/backend/device_limit/data.py b/stage-5-tests-ci/backend/device_limit/data.py
+diff --git a/device-example/stage-5-tests-ci/backend/device_limit/data.py b/device-example/stage-5-tests-ci/backend/device_limit/data.py
 index 2c5db71..68fe7b9 100644
---- a/stage-5-tests-ci/backend/device_limit/data.py
-+++ b/stage-5-tests-ci/backend/device_limit/data.py
+--- a/device-example/stage-5-tests-ci/backend/device_limit/data.py
++++ b/device-example/stage-5-tests-ci/backend/device_limit/data.py
 @@ -9,4 +9,6 @@ DEFAULT_PATH = Path(__file__).resolve().parents[2] / "data" / "device_counts.csv
  
  
