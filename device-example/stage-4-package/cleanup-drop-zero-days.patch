@@ -1,0 +1,12 @@
+diff --git a/stage-4-package/device_limit/data.py b/stage-4-package/device_limit/data.py
+index 7fa9d86..c0e0202 100644
+--- a/stage-4-package/device_limit/data.py
++++ b/stage-4-package/device_limit/data.py
+@@ -4,4 +4,6 @@ import pandas as pd
+ 
+ 
+ def load_counts(path="data/device_counts.csv"):
+-    return pd.read_csv(path, parse_dates=["date"])
++    counts = pd.read_csv(path, parse_dates=["date"])
++    # Tidy up: days without measurements are not useful.
++    return counts[counts["daily_count"] > 0]
