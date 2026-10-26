@@ -1,0 +1,23 @@
+# Virtual environments. The stage READMEs create .venv, .venv311 and .venv312.
+.venv*/
+
+# Python build and cache artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Notebook and test artifacts
+.ipynb_checkpoints
+.pytest_cache/
+.coverage
+coverage.xml
+
+# Local configuration. Never commit secrets or real data; see RULES.md.
+.env
+
+# Editor and operating system files
+.DS_Store
+.vscode/
+.idea/
